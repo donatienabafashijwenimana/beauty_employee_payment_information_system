@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header{
+    height: 3.5pc;
+    background-color: aliceblue;
+    border-bottom: solid black 1px;
+    text-transform: uppercase;
+    font-size: 2pc;
+}
+.navbar{
+    background-color: grey;
+    height:3pc;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a{
+    border: 1px solid white;
+    height: 1.5pc;
+    color: white;
+     text-decoration: none;
+     font-size: 1.2pc;
+     padding: 0 5px;
+     margin: 7px 0;
+}
+.table{
+    width: 77%;
+    padding: 1pc;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+td,th{
+    height: 2pc;
+    text-align: left;
+    padding: 0 1pc;
+}
+.right{
+    display: flex;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 010px black;
+    text-align: center;
+    height: 4pc;
+    font-size: 1pc;
+    /* margin-top: 10pc; */
+    width: 100%;
+}
+footer h1{
+    font-size: 1.5pc;
+    text-decoration: underline;
+}
+.form{
+    width: 20%;
+    display: flex;
+    padding: 1pc;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px black;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,select{
+    height: 1.5pc;
+    margin-bottom: 0.5pc;
+}
+input[type=submit]{
+    background-color: blue;
+    border: none;
+    height:2pc;
+    border-radius: 0.3pc;
+    color: white;
+}
+label{
+    color: black;
+}
